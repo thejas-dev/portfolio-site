@@ -79,20 +79,23 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Thejas hari',
   description: 'Hi! I am Thejas, and its my portfolio website. Here, you can learn about me, explore the projects I have previously completed, and contact me if you are interested in collaboration.',
+  openGraph: {
+    title: 'Thejas Hari Portfolio',
+    description: 'Hi! I am Thejas, and its my portfolio website. Here, you can learn about me, explore the projects I have previously completed, and contact me if you are interested in collaboration.',
+    image:'https://ik.imagekit.io/d3kzbpbila/thejashari_MNUFga7_b'
+  },
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+        <meta property='title' content="Thejas hari portfolio"/>
         <meta property="og:url" content="https://thejashari.vercel.app" key="ogurl" />
         <meta property="og:image" content="https://ik.imagekit.io/d3kzbpbila/thejashari_MNUFga7_b" key="ogimage" />
-        <meta property="image" content="https://ik.imagekit.io/d3kzbpbila/thejashari_MNUFga7_b" key="image" />
         <meta property="og:site_name" content="Porfolio Website" key="ogsitename" />
         <meta property="og:title" content="Thejashari Portfolio" key="ogtitle" />
-        <meta property="title" content="Thejashari" key="title" />
         <meta property="og:description" content="Hi! I am Thejas, and its my portfolio website. Here, you can learn about me, explore the projects I have previously completed, and contact me if you are interested in collaboration." key="ogdesc" />
-        <meta property="description" content="Hi! I am Thejas, and its my portfolio website. Here, you can learn about me, explore the projects I have previously completed, and contact me if you are interested in collaboration." key="desc" />
       </Head>
       <body className={`${inter.className} ${Fira_Sans_Init.variable} ${Audiowide_Init.variable}
       ${Exo_2_Init.variable} ${Quantico_Init.variable} ${Montserrat_Alternates_Init.variable}
