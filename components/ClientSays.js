@@ -13,7 +13,7 @@ export default function ClientSays() {
 					</div>
 					<div className="flex md:w-[55%] w-full flex-col gap-8">
 						<h1 className="text-md text-gray-400">
-							&quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur"
+							&quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.&quot;
 						</h1>
 						<div className="mt-1 h-[1px] bg-gray-400 w-full"/>
 						<div className="w-full flex items-center justify-between">
