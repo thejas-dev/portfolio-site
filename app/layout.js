@@ -1,5 +1,76 @@
-import { Inter } from 'next/font/google'
+import { Inter, Fira_Sans, Audiowide, Exo_2, Quantico, Montserrat_Alternates,
+  Nunito_Sans, Work_Sans, Poppins, Cormorant_Garamond, Space_Grotesk } from 'next/font/google'
 import './globals.css'
+
+export const Space_Grotesk_Init = Space_Grotesk({
+  subsets:['latin'],
+  display:'swap',
+  variable:'--font-space_grotesk',
+  weight:'400'
+})
+
+export const Cormorant_Garamond_Init = Cormorant_Garamond({
+  subsets:['latin'],
+  display:'swap',
+  variable:'--font-cormorant_garamond',
+  weight:'700'
+})
+
+export const Poppins_Init = Poppins({
+  subsets:['latin'],
+  display:'swap',
+  variable:'--font-poppins',
+  weight:'400'
+})
+
+export const Work_Sans_Init = Work_Sans({
+  subsets:['latin'],
+  display:'swap',
+  variable:'--font-work_sans',
+  weight:'400'
+})
+
+export const Nunito_Sans_Init = Nunito_Sans({
+  subsets:['latin'],
+  display:'swap',
+  variable:'--font-nunito_sans',
+  weight:'400'
+}) 
+
+export const Fira_Sans_Init = Fira_Sans({
+  subsets:['latin'],
+  display:'swap',
+  variable:'--font-fira_sans',
+  weight:'500'
+}) 
+
+export const Exo_2_Init = Exo_2({
+  subsets:['latin'],
+  display:'swap',
+  variable:'--font-exo_2',
+  weight:'400'
+}) 
+
+export const Audiowide_Init = Audiowide({
+  subsets:['latin'],
+  display:'swap',
+  variable:'--font-audiowide',
+  weight:'400'
+}) 
+
+export const Quantico_Init = Quantico({
+  subsets:['latin'],
+  display:'swap',
+  variable:'--font-quantico',
+  weight:'400'
+}) 
+
+export const Montserrat_Alternates_Init = Montserrat_Alternates({
+  subsets:['latin'],
+  display:'swap',
+  variable:'--font-monoserrat',
+  weight:'600'
+}) 
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,7 +82,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${Fira_Sans_Init.variable} ${Audiowide_Init.variable}
+      ${Exo_2_Init.variable} ${Quantico_Init.variable} ${Montserrat_Alternates_Init.variable}
+      ${Nunito_Sans_Init.variable} ${Work_Sans_Init.variable} ${Poppins_Init.variable}
+      ${Cormorant_Garamond_Init.variable} ${Space_Grotesk_Init.variable}
+      `}>{children}</body>
     </html>
   )
 }
