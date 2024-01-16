@@ -93,7 +93,7 @@ export default function AboutMe() {
 						</h1>
 					</div>
 					<div ref={componentRef2} className="flex flex-col gap-5">
-						<p className={`text-gray-400 exo-2 text-sm  ${isVisible2 ? 'imvisible' : 'invisible'}`}>
+						<p className={`text-gray-400 exo-2 text-md  ${isVisible2 ? 'imvisible' : 'invisible'}`}>
 							I&apos;m N.U. Thejas Hari, a Developer, and Cybersecurity Researcher. As a tech enthusiast, I have always been eager to learn new technologies and tools to enhance my skills. I have over 3 years of experience in Full Stack Web Development and one year of experience in penetration testing. I provide IT solutions for organizations to enhance their businesses and run my own academy 21stSkills.com, where I teach about web development and cybersecurity.
 						</p>
 						<div>
