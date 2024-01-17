@@ -9,11 +9,11 @@ export default function ClientSays() {
 			<div className="flex flex-col max-w-6xl mx-auto px-3 py-3 w-full gap-5">
 				<div className="w-full flex items-center md:flex-row flex-col justify-between gap-5">
 					<div className="md:w-[30%] w-full h-full">
-						<h1 className="text-6xl text-gray-100">What My Client Says</h1>
+						<h1 className="text-6xl text-gray-100">Testimonials</h1>
 					</div>
-					<div className="flex md:w-[55%] w-full flex-col gap-8">
-						<h1 className="text-md text-gray-400">
-							&quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.&quot;
+					<div className="flex md:w-[50%] w-full flex-col gap-8">
+						<h1 className="text-[18px] exo-2 text-gray-400">
+							&quot;I was impressed with the day we started working together. His technical expertise, understanding objectives, commitment to deadlines, and ability to translate our vision into reality were outstanding.&quot;
 						</h1>
 						<div className="mt-1 h-[1px] bg-gray-400 w-full"/>
 						<div className="w-full flex items-center justify-between">

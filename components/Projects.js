@@ -84,7 +84,7 @@ export default function Projects() {
 									<h1 className="text-2xl mt-1 font-semibold text-white ">
 										{project?.title}
 									</h1>
-									<p className="text-[13px] work_sans mt-8 text-gray-400 ">{project?.description}</p>
+									<p className="text-[14px] work_sans mt-8 text-gray-400 ">{project?.description}</p>
 								</div>
 								<div className="md:w-[5%] w-full flex items-center md:justify-center h-full">
 									<a href={project?.url} target="_blank"><div className="p-2 bg-white rounded-full text-black hover:cursor-pointer

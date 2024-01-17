@@ -55,7 +55,7 @@ export default function ClientSatisfaction() {
 	return (
 		<div ref={componentRef} className="flex flex-col gap-4 items-center">
 			<h1 className="text-2xl leading-none font-semibold text-white">{experience.toFixed(0)}<span className="text-red-500">%</span></h1>
-			<p className="text-md leading-none text-gray-400">Client Satisfaction Rate</p>
+			<p className="text-md leading-none text-gray-400">Clients Satisfaction Rate</p>
 		</div>
 	)
 }

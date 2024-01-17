@@ -77,6 +77,7 @@ export const Montserrat_Alternates_Init = Montserrat_Alternates({
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
+  metadataBase: new URL('https://thejashari.vercel.app'),
   title: 'Thejas hari',
   description: 'Hi! I am Thejas, and its my portfolio website. Here, you can learn about me, explore the projects I have previously completed, and contact me if you are interested in collaboration.',
   openGraph: {
@@ -84,6 +85,13 @@ export const metadata = {
     description: 'Hi! I am Thejas, and its my portfolio website. Here, you can learn about me, explore the projects I have previously completed, and contact me if you are interested in collaboration.',
     image:'https://ik.imagekit.io/d3kzbpbila/thejashari_MNUFga7_b'
   },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@ThejasHari42675',
+    title: 'Thejas Hari Portfolio',
+    description: 'Hi! I am Thejas, and its my portfolio website. Here, you can learn about me, explore the projects I have previously completed, and contact me if you are interested in collaboration.',
+    image: 'https://ik.imagekit.io/d3kzbpbila/thejashari_MNUFga7_b'
+  }
 }
 
 export default function RootLayout({ children }) {
