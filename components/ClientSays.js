@@ -7,9 +7,9 @@ export default function ClientSays() {
 	return (
 		<section id="client-review" className="snap-start w-full flex items-center gap-5 flex-col md:py-7 py-1">
 			<div className="flex flex-col max-w-6xl mx-auto px-3 py-3 w-full gap-5">
-				<div className="w-full flex items-center md:flex-row flex-col justify-between gap-5">
+				<div className="w-full flex items-center md:flex-row flex-col justify-between md:gap-5 gap-10">
 					<div className="md:w-[30%] w-full h-full">
-						<h1 className="text-6xl text-gray-100">Testimonials</h1>
+						<h1 className="md:text-6xl text-3xl text-gray-100">Testimonials</h1>
 					</div>
 					<div className="flex md:w-[50%] w-full flex-col gap-8">
 						<h1 className="text-[18px] exo-2 text-gray-400">
