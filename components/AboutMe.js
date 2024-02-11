@@ -97,12 +97,12 @@ export default function AboutMe() {
 							I&apos;m N.U. Thejas Hari, a Developer, and Cybersecurity Researcher. As a tech enthusiast, I have always been eager to learn new technologies and tools to enhance my skills. I have over 3 years of experience in Full Stack Web Development and one year of experience in penetration testing. I provide IT solutions for organizations to enhance their businesses and run my own academy 21stSkills.com, where I teach about web development and cybersecurity.
 						</p>
 						<div>
-							<button className={`flex items-center gap-2 hover:gap-4 border-[1px] hover:border-[1.3px] 
+							<a href="https://21stskills.com" target="_blank"><button className={`flex items-center gap-2 hover:gap-4 border-[1px] hover:border-[1.3px] 
 							border-gray-600 hover:border-red-600 shadow-lg hover:shadow-red-500/50 
 							transition-all text-xs duration-200 ease-in-out px-4 py-[6px] rounded-md  
 							${isVisible2 ? 'imvisible' : 'invisible'}`}>
 								21stSkills.com <HiOutlineArrowRight className="h-3 w-3"/>
-							</button>
+							</button></a>
 						</div>
 					</div>
 				</div>
