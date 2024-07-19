@@ -23,13 +23,13 @@ export default function TrainedStudents() {
 
 	                if (elapsedTime < duration) {
 	                  const progress = elapsedTime / duration;
-	                  const updatedExperience = Math.min(progress * 200, 200);
+	                  const updatedExperience = Math.min(progress * 400, 400);
 
 	                  setExperience(updatedExperience);
 
 	                  requestAnimationFrame(updateExperience);
 	                } else {
-	                  setExperience(200);
+	                  setExperience(400);
 	                  setAnimationComplete(true);
 	                }
 	              };

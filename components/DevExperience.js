@@ -23,13 +23,13 @@ export default function DevExperience() {
 
 	                if (elapsedTime < duration) {
 	                  const progress = elapsedTime / duration;
-	                  const updatedExperience = Math.min(progress * 2.5, 2.5);
+	                  const updatedExperience = Math.min(progress * 3, 3);
 
 	                  setExperience(updatedExperience);
 
 	                  requestAnimationFrame(updateExperience);
 	                } else {
-	                  setExperience(2.5);
+	                  setExperience(3);
 	                  setAnimationComplete(true);
 	                }
 	              };

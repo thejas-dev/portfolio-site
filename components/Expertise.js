@@ -41,13 +41,13 @@ export default function Expertise() {
 		title:'Mentoring & Training',
 		description:"Conducting Workshops on Full Stack Web Development and Developing Courses on Various Topics On 21st Skills Academy.",
 		logo:<PiStudentBold className="w-full h-full text-red-400"/>,
-		completed:'Trained 200+ Students'
+		completed:'Trained 400+ Students'
 	},
 	{
 		title:'Providing IT Solutions',
 		description:"Developing customized dashboards, applications for client needs, including GIS-based Platforms, Landing sites for businesses, etc.",
 		logo:<TbLayoutDashboard className="w-full h-full text-red-400"/>,
-		completed:'6 Clients'
+		completed:'7 Clients'
 	},
 	{
 		title:'VAPT',
